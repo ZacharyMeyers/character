@@ -1,0 +1,138 @@
+title{color: magenta; font-style:italic;font-size:200px}
+html,body,head {height:100%; width:100%; margin:0%;}
+
+div.july{font-size: 17px;
+  font-weight:bold;
+  font-family:"Bradley Hand ITC";
+font-size:30pt}
+
+div.july2{font-size: 17px;
+  font-weight:bold;
+  font-family:"Bradley Hand ITC";
+font-size:14pt}
+
+
+
+body{background:url(background.png);
+      background-position: center center;
+      background-size:cover;
+      background-origin: padding-box;
+      background-color: rgba(50, 115, 220, 0.0);
+    background-clip: border-box;
+    background-attachment: fixed;background-clip: padding-box;
+    background-repeat: no-repeat;}
+
+
+
+div.title
+{width:10%;height:10%;padding-top:20px;padding-left:auto;padding-right:auto;} {display:flex;}
+
+
+
+
+
+
+
+
+
+div.wrap
+{display:flex;}
+div.right, div.left
+{width:50%;margin:50px}
+div.left{width:30%;height:30%;}
+div.right
+{height:20%;width:50%;}
+div.textbox
+{height:200px;width:100%;background-color:#dbb897;margin:20px;
+
+  border:solid 2vmin #eee;
+  border-bottom-color:#683403;
+  border-left-color:#683403;
+  border-radius:1px;
+  box-shadow:0 0 5px 0 rgba(0,0,0,.25) inset, 0 5px 10px 5px rgba(0,0,0,.25);
+  box-sizing:border-box;
+  display:inline-block;
+  display:center;
+  margin:10vh 5vw;
+  height:auto;}
+
+
+
+
+
+
+
+    div.topnav.bottomnav {
+      background-color: ##dbbf3d;
+      overflow: hidden;}
+      a {
+        float: left;
+        color: #f2f2f2;
+        text-align: center;
+        padding: 14px 16px;
+        text-decoration: none;
+        font-size: 17px;
+        font-family: "Algerian"}
+  a.hover {
+      background-color: #ddd;
+      color: black;}
+  a.active {
+          background-color: #B8860B;
+          color: white;}
+
+  div {grid-auto-rows: 100px;
+        grid-area: auto;
+        grid-auto-flow: column;
+        grid-auto-rows: 100px;
+        grid-column-end: 2;
+        grid-column-gap: 10px;
+        grid-column-start: auto;}
+
+
+  img {
+                  border:solid 2px;
+                  border-bottom-color:#ffe;
+                  border-left-color:#eed;
+                  border-right-color:#eed;
+                  border-top-color:#ccb;
+                  max-height:100%;
+                  max-width:100%;
+
+                }
+
+                .frame {
+                  background-color:#ddc;
+                  border:solid 5vmin #eee;
+                  border-bottom-color:#fff;
+                  border-left-color:#eee;
+                  border-radius:1px;
+                  box-shadow:0 0 5px 0 rgba(0,0,0,.25) inset, 0 5px 10px 5px rgba(0,0,0,.25);
+                  box-sizing:border-box;
+                  display:inline-block;
+                  display:center;
+                  margin:10vh 5vw;
+                  height:auto;
+
+                  position:relative;
+                  text-align:center;
+                  &:before {
+                    border-radius:2px;
+                    bottom:-2vmin;
+                    box-shadow:0 2px 5px 0 rgba(0,0,0,.25) inset;
+                    content:"";
+                    left:-2vmin;
+                    position:absolute;
+                    right:-2vmin;
+                    top:-2vmin;
+                  }
+                  &:after {
+                    border-radius:2px;
+                    bottom:-2.5vmin;
+                    box-shadow: black;
+                    content:"box-shadow";
+                    left:-2.5vmin;
+                    position:absolute;
+                    right:-2.5vmin;
+                    top:-2.5vmin;
+                  }
+                }
